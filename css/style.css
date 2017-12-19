@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+.body{
+	
+
+
+	background: url(../img/background.jpg);
+	background-attachment: fixed;
+	background: 0.7;
+	position: relative;
+
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+
+	margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: "Raleway";
+	font-weight: 300;
+	color: # 333;
+
+}
+
+p{
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+
+.centered{
+	text-align: center;
+}
+
+a{
+	color: #f85c37;
+}
+
+a:hover, a:focus{
+	color: #7b7b7b;
+	text-decoration: none;
+	outline: 0;
+}
+
+hr{
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #ccc;
+	margin: 1 em 0;
+	padding: 0
+}
+
+.navbar {
+	font-weight: 800;
+	font-size: 14px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.navbar-inverse {
+	background: brown;
+	border-color: brown;
+}
+
+.navbar-inverse .navbar-brand > .active > a {
+	background-color: #7b7b7b;
+}
+
+.navbar-inverse .navbar-brand  {
+	color: black;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+#headerwrap{
+	background: url(../img/background.jpg)no-repeat center top;
+	margin-top: -10px;
+	padding-top: -20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+
+	background-size: 100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+#headerwrap h1{
+    margin-top: 200px;
+    
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+#headerwrap h2{
+	color: red;
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.w{
+	padding-top: 35px;
+}
+
+.w h4{
+	font-size: 25px;
+}
+
+#dg {
+	background: #e0e0e0;
+	padding-top: 70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#dg h4{
+	font-size: 40px;
+}
+
+.tilt{
+	-webkit-transition: all 0.5s ease;
+	   -moz-transition: all 0.5s ease;
+	     -o-transition: all 0.5s ease;
+	    -ms-transition: all 0.5s ease;
+	        transition: all 0.5s ease;
+}
+
+.tilt:hover{
+	-webkit-transform: rotate(-10deg);
+	   -moz-transform: rotate(-10deg);
+	     -o-transform: rotate(-10deg);
+	    -ms-transform: rotate(-10deg);
+	        transform: rotate(-10deg);
+}
+
+.wb {
+	padding-top: 35px;
+	margin-bottom: 
+}
+
+.wb h4 {
+	font-size: 35px;
+}
+
+#f {
+	background: #2d2d2d;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#r{
+	background: #ff7878;
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+#r h4 {
+	color: white;
+	font-size: 45px;
+}
+#r p {
+	color: white;
+}
+
+#f i {
+	color: #bdbdbd;
+	font-size: 30px;
+	padding: 20px;
+}
+
+#f i:hover {
+	color: #ff7878;
+}
+
+.main-content{
+	margin: 0 auto;
+	width: auto;
+
+}
+
+.mg-auto{
+	margin: auto;
+	float: none;
+}
+
+/*admin*/
+/* Базовые стили формы */
+form{
+  margin: 40px;
+  margin-top: 200px;
+  max-width:95%;
+  box-sizing:border-box;
+  padding:40px;
+  border-radius:5px; 
+  background:RGBA(255,255,255,1);
+  -webkit-box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);        
+  box-shadow:  0px 0px 15px 0px rgba(0, 0, 0, .45);  
+}
+/* Стили полей ввода */
+.textbox{
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 2px solid;
+  box-sizing:border-box;
+  font-family: 'Open Sans', sans-serif;
+  font-size:18px; 
+  padding:10px;
+  margin-bottom:30px;  
+}
+.message:focus,
+.textbox:focus{
+  outline:none;
+   border:#ff0000 2px solid;
+   color:rgba(24,149,215,1);
+}
+/* Стили текстового поля */
+.message{
+    background: rgba(255, 255, 255, 0.4); 
+    width:100%;
+    border:brown 2px solid;
+    box-sizing:border-box;
+    -moz-border-radius: 2px;
+    font-size:18px;
+    font-family: 'Open Sans', sans-serif;
+    -webkit-border-radius: 3px;
+    border-radius: 2px; 
+    display:block;
+    padding:10px;
+    margin-bottom:30px;
+    overflow:hidden;
+}
+/* Базовые стили кнопки */
+.button{
+  height:50px;
+  width:100%;
+  border-radius:3px;
+  border:rgba(0,0,0,.3) 0px solid;
+  box-sizing:border-box;
+  padding:10px;
+  background:#bdbdbd;
+  color:#FFF;
+  font-family: 'Open Sans', sans-serif;  
+  font-weight:400;
+  font-size: 16pt;
+  transition:background .4s;
+  cursor:pointer;
+}
+/* Изменение фона кнопки при наведении */
+.button:hover{
+  background:#ff7878;
+}
+
+/*rewievs*/
+
+.blog-post-meta{
+	margin-top: 100px;
+	margin-left: 15%;
+	margin-right: 10%;
+	margin-bottom: 10%;
+}
+
+.blog-post-meta1{
+	margin-bottom: 20px;
+    color: #999;
+}
+
+/*contacts*/
+#headerwrap1{
+	background: url(../img/cont.jpg) no-repeat center top;
+	margin-top: 90px;
+	padding-top: -20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 300px;
+	width: 100%;
+
+	background-size: 100%;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.map {
+		margin-top: 90px;
+	padding-top: -20px;
+
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 300px;
+	width: 100%;
+
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/*curiculum*/
+
+table.redTable {
+	margin-top: 150px;
+  border: 2px solid #A40808;
+  background-color: #EEE7DB;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  margin-bottom: 170px;
+}
+table.redTable td, table.redTable th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.redTable tbody td {
+  font-size: 13px;
+}
+table.redTable tr:nth-child(even) {
+  background: #F5C8BF;
+}
+table.redTable thead {
+  background: #A40808;
+}
+table.redTable thead th {
+  font-size: 19px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #A40808;
+}
+table.redTable thead th:first-child {
+  border-left: none;
+}
+
+table.redTable tfoot {
+  font-size: 13px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #A40808;
+}
+table.redTable tfoot td {
+  font-size: 13px;
+}
+
+
+	.border{
+		border: 3px solid #ccc;
+	}
+	   
+	#background{
+	    background: url(2.jpg) repeat-y #fc0;
+	    width: 34%;
+	}
+	
+	#News{
+		margin-left:10px;
+	}

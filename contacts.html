@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html manifest="manifest.cache">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мій сайт</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+            <p><h3>© Glushko Incorporated</h3></p>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/index">Головна</a></li>
+          <li><a href="/news">Новини</a></li>
+          <li><a href="/admin">Адмін</a></li>
+          <li class="active"><a href="/contacts">Контакти</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Студентам<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Програма</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Лабораторні</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Література</a></li>
+            </ul>
+          </li>
+          <li><a href="/rewievs">Відгуки</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div id="headerwrap1"></div>
+
+  <div id="dg">
+    <div class="container">
+      <div class="row centered">
+        <div class="container w">
+          <div class="col-lg-4">
+        <i class="fa fa-map-marker"></i>
+        <h4>Наша адреса:</h4>
+        <p>Національний університет “Львівська політехніка“
+
+Кафедра “Комп’ютеризовані системи автоматики“
+м. Львів, вул. Степана Бандери 28а Інститут комп’ютерних технологій, автоматики та метрології (ІКТА)
+5 корпус, 6 поверх, кімната 601</p>
+      </div>
+      <div class="col-lg-4">
+        <i class="fa fa-envelope-o"></i>
+        <h4>Email:</h4>
+        <p>info@iot-ua.com</p>
+      </div>
+      <div class="col-lg-4">
+        <i class="fa fa-phone"></i>
+        <h4>Телефони</h4>
+        <p>+38 (032) 258-2464<br>+38 (032) 258-2197</p>
+      </div>
+    <br><br>
+    </div>
+  </div>
+</div>
+<div class="map">    
+    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;'>
+      <div id='gmap_canvas' style='height:440px;width:100%; background-attachment: centered'></div>
+      <small></small></div>
+      <style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
+      <script type='text/javascript'>function init_map(){var myOptions = {zoom:12,center:new google.maps.LatLng(49.839683,24.029717000000005),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(49.859684,24.029717000000000)});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+  </div></div>
+
+  
+
+  <div id="f">
+    <div class="container">
+      <div class="row centered">
+       <a>© 2016–2017 
+За всіма питаннями пишить за адресою vladglushko1006@gmail.com</a>
+      </div>
+    </div>
+  </div>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body></html>

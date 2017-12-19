@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html manifest="manifest.cache">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Мій сайт</title>
+  <script src="js/useLocalStorage.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="fonts/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/Rewievs.js"></script>
+</head>
+<body>
+   <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+            <p><h3>© Glushko Incorporated</h3></p>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="/index">Головна</a></li>
+          <li><a href="/news">Новини</a></li>
+          <li><a href="/admin">Адмін</a></li>
+          <li class="active"><a href="/contacts">Контакти</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Студентам<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/curiculum">Програма</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Лабораторні</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Література</a></li>
+            </ul>
+          </li>
+          <li><a href="/rewievs">Відгуки</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+	<div class = "blog-post-meta" ID="Field">
+		<div class="feedback">
+			<h3>Олександр Рагулін</h3>
+			<p class="blog-post-meta1">11.11.2017, 14:00</p>
+			<p>Дякую за прекрасний сайт. Зручний і адаптивний.</p>
+			<hr align="center" width="500" size="2" color="#ff0000" />
+		</div>
+		<div class="feedback">
+			<h3>Вася Пупкін</h3>
+			<p class="blog-post-meta1">11.11.2017, 14:00</p>
+			<p>Vіжнародні акти, чинне господарське законодавство України, роз’яснення та правові позиції вищих судових інстанцій, судова практика у конкретних справах.</p>
+			<hr align="center" width="500" size="2" color="#ff0000" />
+		</div>
+	</div>
+
+  <div ID="9" style="margin-left: 50px; margin-right: 50px; margin-bottom: 50px">  
+      <textarea ID="Name" rows="1" cols="50" name="subject" placeholder="Ім'я" class="message" required></textarea>
+      <textarea ID="Check" rows="4" cols="50" name="subject" placeholder="Новий відгук..." class="message" required></textarea>
+      <input ID="123" onclick="AddComment()" name="submit" class="button" type="submit" value="Відправити"/>
+  </div>
+
+	<div id="f">
+		<div class="container">
+		<div class="row centered">
+			<a>© 2016–2017 
+			За всіма питаннями пишить за адресою vladglushko1006@gmail.com</a>
+			</div>
+		</div>
+	</div>
+	
+	
+  <script src="js/checkStorage.js"></script>
+  <script src="js/Rewievs.js"></script>
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
